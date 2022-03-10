@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282828;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.banner-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.banner-1 img{
+    position: relative;
+    left: 20px;
+}
+.banner-1 span{
+    font-size: 2rem;
+    color: white;
+}
+.banner-2{
+    width: 100%;
+    position: relative;
+    left: 300px;
+}
+input[type= "text"]{
+    width: 600px;
+    border: 2px solid grey;
+    font-size: 1.1rem;
+    border-radius:2px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+#search{
+    font-size: 1rem;
+    padding: 10.5px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+.banner-3{
+    display: flex;
+    margin: 20px;
+}
+.banner-3 li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 1.3rem;
+    color: white;
+}
+/* section */
+section{
+    margin-top:30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+.section-banner-1{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 0;
+    width: 20%;
+
+}
+
+.wrapper-1, .wrapper-2{
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 5px;
+}
+.wrapper-1 li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+
+
+.wrapper-2 li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    padding: 5px;
+}
+.section-banner-2{
+    width: 90%;
+    background-color: rgb(24, 24, 24);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    color: white;
+    gap: 20px;
+    grid-row-gap: 10px;
+}
+.section-banner-2 img{
+    width: 350px;
+}
+.detail{
+    display: flex;
+}
+.detail li{
+    list-style-type: none;
+    margin: 5px;
+    opacity: .6;
+}
